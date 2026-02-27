@@ -227,6 +227,9 @@
         "video_ssrc": "Video SSRC:",
         "yes": "sì"
     },
+   "customPanel": {
+        "close": "Chiudi"
+    },
     "dateUtils": {
         "earlier": "Precedenti",
         "today": "Oggi",
@@ -380,6 +383,8 @@
         "lockRoom": "Aggiungi una $t(lockRoomPassword) alla riunione",
         "lockTitle": "Blocco fallito",
         "login": "Accesso",
+        "loginFailed": "Accesso fallito.",
+        "loginOnResume": "La tua sessione d'autenticazione è scaduta. Devi fare di nuovo accesso per partecipare alla riunione.",
         "loginQuestion": "Vuoi fare l'accesso e abbandonare la riunione?",
         "logoutQuestion": "Vuoi disconnetterti e abbandonare la riunione?",
         "logoutTitle": "Disconnessione",
@@ -589,6 +594,7 @@
         "newFileNotification": "{{ participantName }} ha condiviso '{{ fileName }}'",
         "removeFile": "Rimuovi",
         "removeFileSuccess": "File rimosso con successo",
+        "uploadDisabled": "Non hai il permesso di caricare file. Chiedi ad un moderatore il permesso di fare quest'operazione.",
         "uploadFailedDescription": "Si prega di riprovare.",
         "uploadFailedTitle": "Caricamento non riuscito",
         "uploadFile": "Condividi file"
@@ -1315,6 +1321,7 @@
             "chat": "Apri chat",
             "clap": "Applaudi",
             "closeChat": "Chiudi chat",
+            "closeCustomPanel": "Chiudi",
             "closeMoreActions": "Chiudi menu avanzato",
             "closeParticipantsPane": "Chiudi pannello partecipanti",
             "closedCaptions": "Sottotitoli",
@@ -1420,9 +1427,11 @@
         "chat": "Apri chat",
         "clap": "Applaudi",
         "closeChat": "Chiudi chat",
+        "closeCustomPanel": "Chiudi",
         "closeParticipantsPane": "Chiudi pannello partecipanti",
         "closeReactionsMenu": "Chiudi menu reazioni",
         "closedCaptions": "Sottotitoli",
+        "copilot": "Copilot",
         "disableNoiseSuppression": "Disattiva cancellazione del rumore",
         "disableReactionSounds": "Puoi disattivare i suoni delle reazioni in questa riunione",
         "documentClose": "Chiudi documento condiviso",
